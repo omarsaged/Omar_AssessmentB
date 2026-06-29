@@ -58,3 +58,4 @@ The website includes a homepage and a CV page. The homepage introduces the portf
 ## Notes
 
 This Assessment B version visually references my Assessment A website by keeping the same dark blue colour scheme and navigation style, while improving the layout, interactivity, and dynamic content structure.
+Final version prepared for Assessment B submission.
