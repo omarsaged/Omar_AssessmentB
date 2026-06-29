@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- new: viewport makes the CV page responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Omar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <!-- new: heading is loaded dynamically from data.json -->
+    <h1 id="cvName">About Omar Hindawy</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cv.html">About Omar</a>
+    </nav>
+</header>
+
+<main class="cvGrid">
+
+    <section class="reveal active">
+        <h2>About Me</h2>
+        <p class="sectionPreview">A short introduction about my interests and goals.</p>
+        <!-- new: button toggles a section loaded from JSON -->
+        <button id="aboutButton">Show About Me</button>
+        <p id="aboutText" class="hiddenContent"></p>
+    </section>
+
+    <section class="reveal active">
+        <h2>Education</h2>
+        <p class="sectionPreview">My school and university background.</p>
+        <!-- new: button toggles JSON education list -->
+        <button id="educationButton">Show Education</button>
+        <ul id="educationList" class="hiddenContent"></ul>
+    </section>
+
+    <section class="reveal active">
+        <h2>Skills</h2>
+        <p class="sectionPreview">Technical and personal skills I have developed.</p>
+        <!-- new: button toggles JSON skills list -->
+        <button id="skillsButton">Show Skills</button>
+        <ul id="skillsList" class="hiddenContent"></ul>
+    </section>
+
+    <section class="reveal active">
+        <h2>Experience</h2>
+        <p class="sectionPreview">A short overview of my practical experience.</p>
+        <!-- new: button toggles JSON experience content -->
+        <button id="experienceButton">Show Experience</button>
+        <p id="experienceText" class="hiddenContent"></p>
+    </section>
+
+    <section class="reveal active">
+        <h2>Languages</h2>
+        <p class="sectionPreview">Languages I can communicate in.</p>
+        <!-- new: button toggles JSON languages list -->
+        <button id="languagesButton">Show Languages</button>
+        <ul id="languagesList" class="hiddenContent"></ul>
+    </section>
+
+    <section class="reveal active">
+        <h2>Contact</h2>
+        <p class="sectionPreview">How to contact me.</p>
+        <!-- new: contact is loaded from data.json -->
+        <p id="contactText"></p>
+    </section>
+
+</main>
+
+<button id="themeButton">Change Theme</button>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

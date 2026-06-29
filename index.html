@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- new: viewport makes the website responsive on different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Hindawy Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <!-- new: heading content is updated using JavaScript from data.json -->
+    <h1 id="homeName">Omar Hindawy Portfolio</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cv.html">About Omar</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero reveal active">
+        <div class="heroText">
+            <p class="smallTitle">Computer Science Portfolio</p>
+
+            <h2>Welcome To My Portfolio</h2>
+
+            <!-- new: paragraph content is loaded from data.json -->
+            <p id="homeAbout"></p>
+
+            <a href="cv.html">
+                <button>View My CV</button>
+            </a>
+        </div>
+
+        <div class="heroImage">
+            <img src="image for project.png" alt="Omar Hindawy">
+        </div>
+    </section>
+
+    <section class="quickFacts reveal active">
+        <div>
+            <h3>Focus</h3>
+            <p>Web Development</p>
+        </div>
+
+        <div>
+            <h3>Tools</h3>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+
+        <div>
+            <h3>Goal</h3>
+            <p>Building creative projects</p>
+        </div>
+    </section>
+</main>
+
+<button id="themeButton">Change Theme</button>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "Omar Hindawy",
+  "title": "Computer Science Student",
+  "about": "My name is Omar Hindawy. I am interested in computer science and web development. I enjoy learning programming and building creative projects.",
+  "education": [
+    "Green Heights International School",
+    "Lancaster Leipzig Foundation Year",
+    "Graduation Year: 2025"
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Multi-tasking",
+    "Problem Solving"
+  ],
+  "experience": "Internship experience with my uncle in New York.",
+  "languages": [
+    "English",
+    "French",
+    "Some German"
+  ],
+  "email": "hindawy@lancaster.ac.uk"
+}

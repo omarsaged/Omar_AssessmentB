@@ -1,0 +1,8 @@
+New learning comments in HTML files:
+11
+New learning comments in CSS files:
+6
+New learning comments in JavaScript files:
+8
+Total new learning comments:
+25
